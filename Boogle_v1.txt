@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google</title>
+    <link type:"text/css" rel="stylesheet" href="roost.css"/>
+    <style>
+        #middle {
+	height: 128px;
+	width: 978px;
+    margin:auto;
+    padding: inherit;
+    text-align: center
+}
+
+.Google-sign  {
+    font-family:sans-serif;
+    color: #00933B;
+    font-size: 100px;
+    text-align: center;
+    font-weight: lighter;
+
+}
+div div {
+    align-content: center;
+    margin-top: auto;
+}
+.blue_letter {
+    color: #0266C8;
+}
+.red_letter {
+    color: #F90101;
+}
+.yellow_letter {
+    color:#F2B50F;
+}
+#header {
+    font-style: normal;
+    text-align: left;
+    font-size: 16px;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: serif;
+    font-weight: bold
+}
+
+    </style>
+</head>
+<body>
+   <div id="header">
+       <p>Log In | Sign Up</p>
+       
+   </div>
+    <div id="middle">
+        <p class="Google-sign"><span class="blue_letter">G</span><span class="red_letter">o</span><span class="yellow_letter">o</span><span class="blue_letter">g</span>l<span class="red_letter">e</span></p>
+       <div>
+        <p><input type="text" placeholder="Iskanje"></p>
+        </div>
+    </div>
+</body>
+
+</html>
